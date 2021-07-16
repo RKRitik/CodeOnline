@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/RKRitik.github.io/CodeOnline/static/css/main.8bbb2a03.chunk.css",
+    "main.js": "/RKRitik.github.io/CodeOnline/static/js/main.013a7e8e.chunk.js",
+    "main.js.map": "/RKRitik.github.io/CodeOnline/static/js/main.013a7e8e.chunk.js.map",
+    "runtime-main.js": "/RKRitik.github.io/CodeOnline/static/js/runtime-main.79917afa.js",
+    "runtime-main.js.map": "/RKRitik.github.io/CodeOnline/static/js/runtime-main.79917afa.js.map",
+    "static/css/2.455652b6.chunk.css": "/RKRitik.github.io/CodeOnline/static/css/2.455652b6.chunk.css",
+    "static/js/2.9b6038a2.chunk.js": "/RKRitik.github.io/CodeOnline/static/js/2.9b6038a2.chunk.js",
+    "static/js/2.9b6038a2.chunk.js.map": "/RKRitik.github.io/CodeOnline/static/js/2.9b6038a2.chunk.js.map",
+    "static/js/3.330dd537.chunk.js": "/RKRitik.github.io/CodeOnline/static/js/3.330dd537.chunk.js",
+    "static/js/3.330dd537.chunk.js.map": "/RKRitik.github.io/CodeOnline/static/js/3.330dd537.chunk.js.map",
+    "index.html": "/RKRitik.github.io/CodeOnline/index.html",
+    "static/css/2.455652b6.chunk.css.map": "/RKRitik.github.io/CodeOnline/static/css/2.455652b6.chunk.css.map",
+    "static/css/main.8bbb2a03.chunk.css.map": "/RKRitik.github.io/CodeOnline/static/css/main.8bbb2a03.chunk.css.map",
+    "static/js/2.9b6038a2.chunk.js.LICENSE.txt": "/RKRitik.github.io/CodeOnline/static/js/2.9b6038a2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79917afa.js",
+    "static/css/2.455652b6.chunk.css",
+    "static/js/2.9b6038a2.chunk.js",
+    "static/css/main.8bbb2a03.chunk.css",
+    "static/js/main.013a7e8e.chunk.js"
+  ]
+}
