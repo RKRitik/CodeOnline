@@ -22,6 +22,32 @@ class Editor extends React.Component {
     };
   }
 
+  shareCode() {
+    let code =
+      "html : " +
+      this.state.html +
+      " css : " +
+      this.state.css +
+      "js : " +
+      this.state.js;
+    const requestOptions = {
+      method: "POST",
+      mode: "cors",
+      headers: {
+        "Content-Type": "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
+      body: JSON.stringify({
+        api_dev_key: "api_",
+        api_option: "paste",
+        api_paste_code: code,
+      }),
+    };
+    fetch("https://pastebin.com/api/api_post.php", requestOptions)
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+  }
+
   render() {
     return (
       <div className="container-flex h-100">
@@ -60,6 +86,15 @@ class Editor extends React.Component {
                 index.js
               </Button>
             </div>
+            {/* <div className="row mt-5">
+              <Button
+                onClick={() => {
+                  this.shareCode();
+                }}
+              >
+                Share Code
+              </Button>
+            </div> */}
           </div>
           <div
             style={{ borderBlockColor: "black", borderStyle: "dashed" }}
